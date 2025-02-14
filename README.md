@@ -24,10 +24,10 @@
 
 #### Desctop
 
-![Desctop](gh-images/lighthouse.png)
+![Desctop](git-images/lighthouse.png)
 
 #### Mobile
 
-![Mobile](gh-images/lighthouse-mobile.png)
+![Mobile](git-images/lighthouse-mobile.png)
 
 ## Автор t.me/elsenimic
