@@ -1,17 +1,77 @@
-<div id="tab-1" role="tabpanel" aria-labelledby="tab-1" class="tab description active">
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Купить свежие томаты на ветке. Полезные, ароматные и низкокалорийные помидоры с доставкой."
+    />
+    <title>project</title>
+    <link
+      rel="preload"
+      href="fonts/montserrat-regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/main.js"></script>
+  </head>
+  <body class="body">
+    <main class="main">
+      <div id="tabs" class="tabs">
+        <div class="container">
+          <div id="tabs-list" role="tablist" class="tabs__list">
+            <button
+              id="tab-btn-1"
+              role="tab"
+              aria-selected="true"
+              aria-controls="tab-1"
+              tabindex="0"
+              class="tab__btn active"
+            >
+              Описание
+            </button>
+            <button
+              id="tab-btn-2"
+              role="tab"
+              aria-selected="false"
+              aria-controls="tab-2"
+              tabindex="-1"
+              class="tab__btn"
+            >
+              Отзывы
+            </button>
+            <button
+              id="tab-btn-3"
+              role="tab"
+              aria-selected="false"
+              aria-controls="tab-3"
+              tabindex="-1"
+              class="tab__btn"
+            >
+              Откуда?
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="tabs-content">
+        <div id="tab-1" role="tabpanel" aria-labelledby="tab-1" class="tab description active">
   <div class="container description__container">
     <div class="tab__text-block">
       <p class="tab__descr">
-        <span class="bold">Томаты на ветке красные</span> (помидоры) - более плотные, яркие и
-        ароматные по сравнению с обычными. Они славятся низкой калорийностью и высоким содержанием
-        витаминов, клетчатки, пектина и минеральных веществ. В них содержатся также каротиноиды,
-        кислоты и мощный антиоксидант ликопин.
+        <span class="bold">Томаты на ветке красные</span> (помидоры) — более плотные, яркие и
+        ароматные по сравнению с обычными. Они славятся низкой калорийностью и высоким содержанием
+        витаминов, клетчатки, пектина и минеральных веществ. В них содержатся также каротиноиды,
+        кислоты и мощный антиоксидант ликопин.
       </p>
       <p class="tab__descr">
-        Помидор - незаменимый продукт в мировой кулинарии. Он - основа многочисленных соусов,
-        маринадов, кетчупа, испанского холодного супа Гаспачо или итальянской закуски Капрезе. С ним
-        делают салаты, его тушат, солят и консервируют. Помидоры на веточке особенно красиво
-        смотрятся в запеченном виде.
+        Помидор — незаменимый продукт в мировой кулинарии. Он — основа многочисленных соусов,
+        маринадов, кетчупа, испанского холодного супа Гаспачо или итальянской закуски Капрезе. С ним
+        делают салаты, его тушат, солят и консервируют. Помидоры на веточке особенно красиво
+        смотрятся в запеченном виде.
       </p>
     </div>
     <div class="info">
@@ -24,7 +84,7 @@
           </li>
           <li class="info-block__item">
             <span class="info-block__label">Поставщик</span>
-            <span class="info-block__value">Фермеры: Наталья и&nbsp;Юрий Лейшан</span>
+            <span class="info-block__value">Фермеры: Наталья и Юрий Лейшан</span>
           </li>
           <li class="info-block__item">
             <span class="info-block__label">Тип упаковки</span>
@@ -32,30 +92,30 @@
           </li>
           <li class="info-block__item">
             <span class="info-block__label">Сертификаты качества</span>
-            <span class="info-block__value">В&nbsp;наличии</span>
+            <span class="info-block__value">В наличии</span>
           </li>
         </ul>
       </div>
       <div class="info-block">
         <h3 class="info-block__title">
-          Пищевая ценность <span class="info-block__title--hidden">на&nbsp;100г</span>
+          Пищевая ценность <span class="info-block__title--hidden">на 100г</span>
         </h3>
         <ul class="info-block__list">
           <li class="info-block__item">
             <span class="info-block__label">Энергетическая ценность</span>
-            <span class="info-block__value">18&nbsp;кКал</span>
+            <span class="info-block__value">18 кКал</span>
           </li>
           <li class="info-block__item">
             <span class="info-block__label">Белки</span>
-            <span class="info-block__value">0.9&nbsp;г</span>
+            <span class="info-block__value">0.9 г</span>
           </li>
           <li class="info-block__item">
             <span class="info-block__label">Жиры</span>
-            <span class="info-block__value">0.2&nbsp;г</span>
+            <span class="info-block__value">0.2 г</span>
           </li>
           <li class="info-block__item">
             <span class="info-block__label">Углеводы</span>
-            <span class="info-block__value">3.9&nbsp;г</span>
+            <span class="info-block__value">3.9 г</span>
           </li>
         </ul>
       </div>
@@ -64,11 +124,11 @@
         <ul class="info-block__list">
           <li class="info-block__item">
             <span class="info-block__label">Срок хранения</span>
-            <span class="info-block__value">7&nbsp;дней</span>
+            <span class="info-block__value">7 дней</span>
           </li>
           <li class="info-block__item">
             <span class="info-block__label">Температура хранения</span>
-            <span class="info-block__value">от&nbsp;3 &deg; до&nbsp;7 &deg;</span>
+            <span class="info-block__value">от 3 ° до 7 °</span>
           </li>
         </ul>
       </div>
@@ -76,7 +136,7 @@
   </div>
   <div class="related-products">
     <div class="container related-products__container">
-      <h2 class="related-products__title">С этим товаром покупают</h2>
+      <h2 class="related-products__title">С этим товаром покупают</h2>
       <div id="related-products-swiper" class="swiper related-products-swiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
@@ -87,7 +147,7 @@
               </picture>
               <div class="product-card__content">
                 <h4 class="product-card__title">Молоко 3,2%</h4>
-                <p class="product-card__autor">от Вадима Рошки</p>
+                <p class="product-card__autor">от Вадима Рошки</p>
                 <div class="product-card__price">
                   <p class="product-card__text">95 ₽ <span>/ 0,93 л</span></p>
                   <div class="rating">
@@ -110,7 +170,7 @@
                 </div>
               </div>
               <button class="product-card-label" aria-label="Добавить в корзину">
-                <span class="product-card-label__text">В корзину</span>
+                <span class="product-card-label__text">В корзину</span>
                 <span class="product-card-label__icons">
                   <svg width="12" height="12" class="product-card-label__icon">
                     <use xlink:href="images/sprite.svg#product-card-plus"></use>
@@ -130,7 +190,7 @@
               </picture>
               <div class="product-card__content">
                 <h4 class="product-card__title">Хлеб пшеничный</h4>
-                <p class="product-card__autor">от Дарьи и Марии</p>
+                <p class="product-card__autor">от Дарьи и Марии</p>
                 <div class="product-card__price">
                   <p class="product-card__text">95 ₽ <span>/ 930 г</span></p>
                   <div class="rating">
@@ -153,7 +213,7 @@
                 </div>
               </div>
               <button class="product-card-label" aria-label="Добавить в корзину">
-                <span class="product-card-label__text">В корзину</span>
+                <span class="product-card-label__text">В корзину</span>
                 <span class="product-card-label__icons">
                   <svg width="12" height="12" class="product-card-label__icon">
                     <use xlink:href="images/sprite.svg#product-card-plus"></use>
@@ -173,7 +233,7 @@
               </picture>
               <div class="product-card__content">
                 <h4 class="product-card__title">Яйца куриные</h4>
-                <p class="product-card__autor">от Евгения Рошаль</p>
+                <p class="product-card__autor">от Евгения Рошаль</p>
                 <div class="product-card__price">
                   <p class="product-card__text">120 ₽ <span>/ 10 шт</span></p>
                   <div class="rating">
@@ -196,7 +256,7 @@
                 </div>
               </div>
               <button class="product-card-label" aria-label="Добавить в корзину">
-                <span class="product-card-label__text">В корзину</span>
+                <span class="product-card-label__text">В корзину</span>
                 <span class="product-card-label__icons">
                   <svg width="12" height="12" class="product-card-label__icon">
                     <use xlink:href="images/sprite.svg#product-card-plus"></use>
@@ -220,7 +280,7 @@
               </picture>
               <div class="product-card__content">
                 <h4 class="product-card__title">Масло сливочное 82%</h4>
-                <p class="product-card__autor">от Вадима Рошки</p>
+                <p class="product-card__autor">от Вадима Рошки</p>
                 <div class="product-card__price">
                   <p class="product-card__text">290 ₽ <span>/ 250 г</span></p>
                   <div class="rating">
@@ -243,7 +303,7 @@
                 </div>
               </div>
               <button class="product-card-label" aria-label="Добавить в корзину">
-                <span class="product-card-label__text">В корзину</span>
+                <span class="product-card-label__text">В корзину</span>
                 <span class="product-card-label__icons">
                   <svg width="12" height="12" class="product-card-label__icon">
                     <use xlink:href="images/sprite.svg#product-card-plus"></use>
@@ -260,3 +320,56 @@
     </div>
   </div>
 </div>
+ <div id="tab-2" role="tabpanel" aria-labelledby="tab-2" class="tab reviews">
+  <div class="container reviews__container">
+    <p class="reviews__text">
+      Помогите нам стать ещё лучше. Оставляя отзывы, вы таким образом указываете нам на зоны роста.
+      Мы правда, читаем все отзывы.
+    </p>
+    <button class="btn reviews__btn" aria-label="Оставить отзыв">Оставить отзыв</button>
+  </div>
+</div>
+
+        <div id="tab-3" role="tabpanel" aria-labelledby="tab-3" class="tab location">
+  <div class="container location__container">
+    <div class="location__content">
+      <div class="location__text-block">
+        <p class="location__text">
+          Томаты на ветке красные (помидоры) — более плотные, яркие и ароматные по сравнению с
+          обычными. Они славятся низкой калорийностью и высоким содержанием витаминов, клетчатки,
+          пектина и минеральных веществ. В них содержатся также каротиноиды, кислоты и мощный
+          антиоксидант ликопин.
+        </p>
+        <p class="location__text">
+          Помидор — незаменимый продукт в мировой кулинарии. Он — основа многочисленных соусов,
+          маринадов, кетчупа, испанского холодного супа Гаспачо или итальянской закуски Капрезе.
+        </p>
+      </div>
+      <div class="location__img-block">
+        <h4 class="location__img-title">Наталья и Юрий Лейшан</h4>
+        <picture class="location__picture">
+          <source srcset="images/location-img.webp" type="image/webp" />
+          <img
+            loading="lazy"
+            src="images/location-img.jpg"
+            class="location__img"
+            alt="Человек на фоне теплицы"
+          />
+        </picture>
+        <div class="location__btns">
+          <button class="btn-reverse location__btn" aria-label="Посмотреть сертификаты">
+            Сертификаты
+          </button>
+          <button class="btn-reverse location__btn" aria-label="Узнать о поставщике">
+            О поставщике
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </div>
+    </main>
+  </body>
+</html>
