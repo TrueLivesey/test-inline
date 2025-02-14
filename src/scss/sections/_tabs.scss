@@ -1,0 +1,33 @@
+.tabs {
+  margin-bottom: 50px;
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-bottom: 20px;
+    border-bottom: 0.5px solid var(--color-gray-lighter);
+  }
+}
+
+// Tablet
+@include tablet {
+  .tabs {
+    &__list {
+      justify-content: space-between;
+      gap: 0;
+      width: 100%;
+    }
+  }
+}
+
+// Mobile
+@include mobile {
+  .tabs {
+    margin-bottom: 24px;
+
+    &__list {
+      padding-bottom: 7px;
+    }
+  }
+}

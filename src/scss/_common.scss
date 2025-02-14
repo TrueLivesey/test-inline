@@ -1,0 +1,73 @@
+// @import './vars';
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+.body {
+  min-width: 375px;
+  height: auto;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 143%;
+  line-height: normal;
+  // color: $colorBlack;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  max-width: calc(1066px + 40px);
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.main {
+  padding: 16px 0;
+}
+
+.btn {
+  padding: 10px 18px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 133%;
+  color: var(--color-white);
+  border-radius: var(--br-radius);
+  background-color: var(--color-primary);
+}
+
+.btn-reverse {
+  padding: 10px 18px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 143%;
+  color: var(--color-color-gray-darker);
+  border-radius: var(--br-radius);
+  border: 0.5px solid var(--color-gray-darker);
+}
+
+.rating-icon {
+  fill: var(--color-yellow);
+}
