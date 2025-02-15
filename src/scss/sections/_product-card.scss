@@ -57,10 +57,13 @@
     border-radius: 33px 0 0 33px;
     background-color: var(--color-primary);
     cursor: pointer;
-    transition: var(--transition) background-color;
+    transition:
+      var(--transition) background-color,
+      var(--transition) border-color;
 
     &__text {
       display: none;
+      transition: var(--transition) color;
     }
 
     &__icons {
@@ -70,26 +73,41 @@
 
     &__icon {
       fill: var(--color-white);
+      transition: var(--transition) fill;
 
       &:nth-of-type(1) {
         display: none;
         stroke: var(--color-primary);
+        transition: var(--transition) stroke;
       }
     }
 
-    @media screen and (hover: hover) {
-      &:focus-visible {
-        outline-offset: var(--outline-offset);
-        outline: 2px solid var(--color-gray-darker);
-      }
+    &:focus-visible {
+      outline-offset: var(--outline-offset);
+      outline: 2px solid var(--color-gray-darker);
+    }
 
+    @media screen and (hover: hover) {
       &:hover {
         background-color: var(--color-primary-lighter);
-      }
+        border-color: var(--color-primary-lighter);
 
-      &:active {
-        background-color: var(--color-primary-darker);
+        .product-card-label__text {
+          color: var(--color-white);
+        }
+
+        .product-card-label__icon {
+          fill: var(--color-white);
+
+          &:nth-of-type(1) {
+            stroke: var(--color-white);
+          }
+        }
       }
+    }
+
+    &:active {
+      background-color: var(--color-primary-darker);
     }
 
     @media screen and (hover: none) {
